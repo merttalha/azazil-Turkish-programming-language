@@ -47,7 +47,7 @@ yazdır("Merhaba Dünya")
 
 ## Katkıda Bulunun
 
-Azazil'e katkıda bulunmak isterseniz, lütfen [GitHub](https://github.com/azazil-dev) sayfamızı ziyaret edin ve geliştirme rehberimizi inceleyin.
+Azazil'e katkıda bulunmak isterseniz, lütfen [GitHub]([https://github.com/azazil-dev](https://github.com/merttalha/azazil-Turkish-programming-language/tree/main?tab=readme-ov-file)) sayfamızı ziyaret edin ve geliştirme rehberimizi inceleyin.
 
 ## Lisans
 
