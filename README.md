@@ -19,7 +19,7 @@ Azazil, arka planda Python kullanan Türkçe bir yazılım dilidir. Temel Python
 
 ## Örnek Kullanım
 
-### Giriş/Çıkış İşlemleri
+### Yazdırma İşlemi
 
 Bir mesaj veya değişkeni ekrana yazdırmak için:
 
