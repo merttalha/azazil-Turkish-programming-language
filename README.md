@@ -42,6 +42,7 @@ yazdır("Merhaba Dünya")
 - 🚧 Günlüğe kayıt işlemleri kütüphanesi
 - 🚧 Hata izleme işlemleri kütüphanesi
 - 🚧 Çoklu iş parçacığı kütüphanesi
+- 🚧 Birden fazla platforma yazılım geliştirme seçeneği(web,android,ios,linux,windows)
 
 
 ## Katkıda Bulunun
