@@ -27,6 +27,21 @@ Bir mesaj veya değişkeni ekrana yazdırmak için:
 # Azazil'de ekran çıktısı
 yazdır("Merhaba Dünya")
 ```
+## Yol Haritası
+
+- ✅ İşletim sistemi kütüphanesi
+- ✅ Sistem parametreleri ve koşulları kütüphanesi
+- ✅ Matematiksel işlemler kütüphanesi
+- ✅ Zaman kütüphanesi
+- ✅ Tarih ve zaman kütüphanesi
+- ✅ Rastgele İşlem kütüphanesi
+- ✅ Düzenli ifadeler kütüphanesi
+- ✅ HTTP istekleri kütüphanesi
+- ✅ JSON veri işlemleri kütüphanesi
+- 🚧 Yerel veri işlemleri kütüphanesi
+- 🚧 Günlüğe kayıt işlemleri kütüphanesi
+- 🚧 Hata izleme işlemleri kütüphanesi
+- 🚧 Çoklu iş parçacığı kütüphanesi
 
 
 ## Katkıda Bulunun
