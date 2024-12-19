@@ -30,6 +30,129 @@ Bir mesaj veya değişkeni ekrana yazdırmak için:
 # Azazil'de ekran çıktısı
 yazdır("Merhaba Dünya")
 ```
+
+### Değişken Tanımlama
+
+Değişkenler Python'da olduğu gibi oluşturulur, sadece Türkçe isimler kullanabilirsiniz.
+
+```python
+#Azazil değişken tanımlama
+sayı = 10
+metin = "Merhaba"
+mantıksal = Doğru
+```
+
+### Kullanıcıdan Veri Almak
+
+Kullanıcıdan bir girdi almak için:
+
+Giriş komutunu yansımasını Azazilde henüz görüntüleyemezsiniz bunun için exe dosyası oluşturun.
+
+```python
+#Azazil kullanıcıdan veri alma
+girdi = giriş("Bir şey yazınız: ")
+yazdır("Girdiğiniz: ", girdi)
+```
+
+### Koşul Yapıları
+
+Bir koşulu kontrol etmek için:
+
+```python
+#Eğer
+sayı=10
+eğer sayı > 5:
+    yazdır("Sayı beşden büyüktür")
+```
+
+Birden fazla koşulu kontrol etmek için:
+```python
+#İken ve değilse
+sayı=10
+eğer sayı > 5:
+    yazdır("Sayı beşden büyüktür")
+iken sayı > 5:
+    yazdır("Sayı 5 ile 10 arasında")
+değilse:
+    yazdır("Sayı beşden küçük veya eşittir")
+```
+
+### Döngüler
+
+Bir liste veya menzil üzerinde döngü yapmak için:
+
+```python
+#Sıralı Döndür
+sıralı_döndür i menzil(5):
+    yazdır(i)
+```
+Bir koşul doğru olduğu sürece döngü yapmak için:
+
+```python
+#Döndür
+x = 0
+döndür x < 5:
+    yazdır(x)
+    x = x + 1
+```
+
+### Fonksiyonlar ve Sınıflar
+
+Bir fonksiyon tanımlamak için:
+
+```python
+#Azazil fonksiyon tanımlama ve çağırma
+fonksiyon selam_ver(isim):
+    yazdır(f"Merhaba {isim}")
+
+selam_ver("Mert")
+```
+Bir sınıf tanımalamak için:
+
+```python
+#Azazil sınıf tanımlama
+sınıf Araba:
+    fonksiyon içinde(self, marka):
+        self.marka = marka
+```
+### Veri işlemleri
+
+Bir liste oluşturmak için:
+
+```python
+#Azazil listeleme
+listele = [1, 2, 3, 4]
+```
+Listeye eleman eklemek için:
+
+```python
+#Azazil eleman ekleme
+liste.ekle(5)
+```
+Listenin eleman saysını öğrenmek için:
+
+```python
+#Azazil eleman sayısı öğrenme
+uzunluk = liste.sayım()
+```
+### İşletim sistemi kütüphanesi komutları
+
+ İşletim sistemi kütüphanesi yükleme:
+
+ ```python
+#Azazil kütüphane yüklü
+işletim sistemi kütüphanesini yükle
+```
+
+Bir dosyayı okumak için:
+
+```python
+#Azazil dosya okuma
+dosya = işletim_sistemi.dosya_oku("dosya.txt", "r")
+metin = işletim_sistemi.dosya_oku()
+işletim_sistemi.dosya_kapat()
+```
+
 ## Yol Haritası
 
 - ✅ İşletim sistemi kütüphanesi
