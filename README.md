@@ -153,6 +153,150 @@ metin = işletim_sistemi.dosya_oku()
 işletim_sistemi.dosya_kapat()
 ```
 
+Bir dosyaya yazmak için:
+
+```python
+#Azazil dosyaya yazma
+dosya = işletim_sistemi.dosya_oku("dosya.txt", "r")
+metin = işletim_sistemi.dosya_oku()
+işletim_sistemi.dosya_kapat()
+```
+
+Bir dizin oluşturmak için:
+
+```python
+#Azazil dizin oluşturma
+işletim_sistemi.dizin_oluştur("yeni_klasor")
+```
+
+Bir dizini silmek için:
+
+```python
+#Azazil dizin silme
+işletim_sistemi.dizin_sil("eski_klasor")
+```
+
+Bir dizindeki dosyaları listelemek için:
+
+```python
+#Azazil dizindeki dosyaları listeleme
+dosyalar = işletim_sistemi.dizin_listele(".")
+yazdır(dosyalar)
+```
+
+Bir dosyayı silmek için:
+
+```python
+#Azazil dosya silme
+işletim_sistemi.dosya_sil("örnek.txt")
+```
+
+Bir soyayı veya bir dizini yeniden adlandırmak için:
+
+```python
+#Azazil bir soyayı veya bir dizini yeniden adlandırma
+işletim_sistemi.yeniden_adlandır("eski_ad.txt", "yeni_ad.txt")
+```
+Mevcut dizini öğrenmek için:
+
+```python
+#Azazil mevcut dizini öğrenme
+mevcut = işletim_sistemi.mevcut_dizin()
+yazdır(mevcut)
+```
+Mevcut dizini değiştirmek için:
+
+```python
+#Azazil mevcut dizin değiştirme
+işletim_sistemi.dizin_değiştir("yeni_klasor")
+```
+Birden fazla dizin yolunu birleştirmek için:
+
+```python
+#Azazil dizin yolu birleştirme
+tam_yol = işletim_sistemi.dizin_yolu_birleştir("klasor", "alt_klasor", "dosya.txt")
+yazdır(tam_yol)
+```
+
+Bir dizinin var olup olmadığını kontrol etmek için:
+
+```python
+#Azazil dizin kontrol etme
+var_mı = işletim_sistemi.dizin_var_mı("hedef_klasor")
+yazdır(var_mı)
+```
+
+Bir yolun mutlak yolunu almak için:
+
+```python
+#Azazil mutlak yol bulma
+tam_yol = işletim_sistemi.mutlak_yol("göreli_yol")
+yazdır(tam_yol)
+```
+
+Bir dosya yolunun son kısmını almak için:
+
+```python
+#Azazil dosya yolunun son kısmını alma
+dosya_adı = işletim_sistemi.taban_adı("klasor/dosya.txt")
+yazdır(dosya_adı)
+```
+
+Sistem komutu çalıştırmak için:
+
+```python
+#Azazil sistem komutu çalıştırma
+işletim_sistemi.sistem("ls")
+```
+
+Geçerli kullanıcı adını almak için:
+
+```python
+#Azazil kullanıcı adı alma
+kullanıcı = işletim_sistemi.kullanıcı_adı()
+yazdır(kullanıcı)
+```
+
+Kullanılan platformun adını almak için:
+
+```python
+#Azazil platform adı alma
+platform = platform()
+yazdır(platform)
+```
+
+Detaylı platform bilgisi almak için:
+
+```python
+#Azazil platform bilgisi alma
+işletim_sistemi.detaylı_platform()
+yazdır(detaylar)
+```
+
+### HTTP istekleri
+
+Bir API'den veri almak için:
+
+```python
+#Azazil  API'den veri alma
+http.veriyi_çağır("https://api.example.com/data")
+```
+
+Bir API'ye veri göndermek için:
+
+```python
+#Azazil API'ye veri gönderme
+http.veriyi_kaydet("https://api.example.com/data", {"anahtar": "değer"})
+```
+
+### Matematiksel işlemler
+
+Liste elemanlarının toplamını bulmak için:
+
+```python
+#Azazil liste elemanlarının toplamını bulma
+sonuç = mat.toplam([1, 2, 3, 4])
+```
 ## Yol Haritası
 
 - ✅ İşletim sistemi kütüphanesi
