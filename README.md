@@ -297,11 +297,101 @@ Liste elemanlarının toplamını bulmak için:
 #Azazil liste elemanlarının toplamını bulma
 sonuç = mat.toplam([1, 2, 3, 4])
 ```
-## Yol Haritası
 
-- ✅ İşletim sistemi kütüphanesi
-- ✅ Sistem parametreleri ve koşulları kütüphanesi
-- ✅ Matematiksel işlemler kütüphanesi
+Bir sayının karekökünü almak için:
+
+```python
+#Azazil karekök alma
+kök = kök_al(16)
+```
+
+Çıkarma işlemi yapmak için:
+
+```python
+#Azazil çıkarma işlemi yapma
+çıkarma_sonuc = çıkarmak(10, 4)
+```
+
+### Sistem parametreleri ve koşulları kütüphanesi komutlar
+
+Sistem parametreleri ve koşulları kütüphanesi yükleme:
+
+```python
+#Azazil sistem parametreleri ve koşulları kütüphanesi yükleme
+sistem_modülü_yükle = import sys
+```
+
+Komut satırı argümanları almak için:
+
+```python
+#Azazil komut satırı argümanları alma
+argümanlar = sistem_modülü.komut_satırı_argümanları
+yazdır(argümanlar)
+```
+
+Python yorumlayıcı yolunu almak için:
+
+```python
+#Azazil python yorumlayıcı yolunu alma
+yorumlayıcı_yolu = sistem_modülü.python_yorumlayıcı_yolu
+yazdır(yorumlayıcı_yolu)
+```
+
+Python sürüm bilgisi almak için:
+
+```python
+#Azazil python sürüm bilgisi alma
+sürüm = sistem_modülü.sürüm_bilgisi
+yazdır(sürüm)
+```
+
+Platform bilgisi almak için:
+
+```python
+#Azazil platform bilgisi
+platform = sistem_modülü.platform_bilgisi
+yazdır(platform)
+```
+
+Yüklenen modülleri listelemek için:
+
+```python
+#Azazil yüklşenen modülleri yükleme
+yüklenen_modüller = sistem_modülü.yüklenen_modüller
+yazdır(yüklenen_modüller)
+```
+
+Varsayılan karakter setini öğrenmek için:
+
+```python
+#Azazil varsayılan karakter setini öğrenme
+karakter_seti = sistem_modülü.varsayılan_karakter_seti
+yazdır(karakter_seti)
+```
+
+Programı sonlandırmak için:
+
+```python
+#Azazil programı sonlandırma
+istem_modülü.çık()
+```
+
+Bellek boyutunu öğrenmek için:
+
+```python
+#Azazil bellek boyutunu öğrenme
+obj = "Merhaba Dünya"
+boyut = sistem_modülü.bellek_boyutu(obj)
+yazdır(boyut)
+```
+
+Özyineleme limitini öğrenmek için:
+
+```python
+#Azazil özyineleme linmitini öğrenme
+limit = özyineleme_limiti_al()
+yazdır(limit)
+```
 - ✅ Zaman kütüphanesi
 - ✅ Tarih ve zaman kütüphanesi
 - ✅ Rastgele İşlem kütüphanesi
