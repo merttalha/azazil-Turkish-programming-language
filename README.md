@@ -20,7 +20,7 @@ Azazil, arka planda Python kullanan Türkçe bir yazılım dilidir. Temel Python
 - **.exe Desteği:** Geliştirilen yazılımlar tek tuşla çalıştırılabilir `.exe` dosyalarına dönüştürülebilir.
 - **Eğitim Dostu:** Öğrenmeyi kolaylaştırır ve yazılım dünyasına yeni başlayanlar için idealdir.
 
-  ## Yol Haritası
+## Yol Haritası
 
 - ✅ İşletim sistemi kütüphanesi
 - ✅ Sistem parametreleri ve koşulları kütüphanesi
