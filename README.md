@@ -925,6 +925,317 @@ Hipertanjant hesaplamak için:
 sonuç = mat.hipertanjant(0.5)
 yazdır(sonuç)
 ```
+
+Tau sabiti kullanmak için:
+
+```pythıon
+#Azazil tau sabiti hesaplama
+sonuç = mat.tau_sabit
+yazdır(sonuç)
+```
+
+Kesme işelmi için:
+
+```python
+#Azazil kesme işlmei
+sonuç = mat.kes(2.8)
+yazdır(sonuç)
+```
+
+En küçük artışı hesaplamak için:
+
+```python
+#Azazil en küçük artışı hesaplama
+sonuç = mat.en_küçük_artış(1.0)
+yazdır(sonuç)
+```
+
+### Zaman kütüphanesi komutları
+
+Zaman kütüphanesini yüklemek için:
+
+```python
+#Azazil zaman kütüphanesini yükleme
+zaman kütüphanesini yükle
+```
+
+Zaman dizisini almak için:
+
+```python
+#Azazil zaman dizisini alma
+sonuç = zaman.zaman_dizisi()
+yazdır(sonuç)
+```
+
+Zamanı almak için:
+
+```python
+#Azazil zamanı alma
+sonuç = zaman.zaman()
+yazdır(sonuç)
+```
+
+Gündüz ışığını almak için:
+
+```python
+#Azazil günüdz ışığını alma
+sonuç = zaman.gündüz_ışığı()
+yazdır(sonuç)
+```
+
+Saat bilgilerini almalk için:
+
+```python
+#Azazil saat bilgilerini alma
+sonuç = zaman.saat_bilgisi_al()
+yazdır(sonuç)
+```
+
+GMT zamanını almak için:
+
+```python
+#Azazil GMT zamanını alma
+sonuç = zaman.gmtime()
+yazdır(sonuç)
+```
+
+Yerel zamanı almakl için:
+
+```python
+#Azazil yerel zamanı alma
+sonuç = zaman.gmtime()
+yazdır(sonuç)
+```
+
+Zamanı dönüştürmek için:
+
+```python
+#Azazil zamanı dönüştürme
+sonuç = zaman.zaman_dönüştür(1635620400)
+yazdır(sonuç)
+```
+
+Monotonik zaman ölçümü yapmak için:
+
+```python
+#Azazil monotonik zaman ölçümü yapma
+sonuç = zaman.monotonik()
+yazdır(sonuç)
+```
+
+Monotonik zaman ölçümü (ns) almak için:
+
+```python
+#Azazil monotonik zaman ölçümü (ns) alma
+sonuç = zaman.monotonik_ns()
+yazdır(sonuç)
+```
+
+Performans sayacı ölçümü almak için:
+
+```python
+#Azazil performans sayacı ölçümü alma
+sonuç = zaman.performans_sayacı()
+yazdır(sonuç)
+```
+
+Performans sayacı ölçümü (ns) almak için:
+
+```python
+#Azazil performan sayacı ölçümü (ns) alma
+sonuç = zaman.performans_sayacı_ns()
+yazdır(sonuç)
+```
+
+İşlem zamanı almak için:
+
+```python
+#Azazil işlem zamnı alma
+sonuç = zaman.işlem_zamanı()
+yazdır(sonuç)
+```
+
+İşlem zamanı (ns) almak için:
+
+```python
+#Azazil işlem zamnı (ns) alma
+sonuç = zaman.işlem_zamanı_ns()
+yazdır(sonuç)
+```
+
+Uyumak için:
+
+```python
+#Azazil uyumak için
+zaman.uyumak(2)  # 2 saniye uyuma
+```
+
+Zamanı formatlamak için:
+
+```python
+#Azazil zamanı formatlama
+sonuç = zaman.zaman_formatla("%Y-%m-%d %H:%M:%S", zaman.zaman())
+yazdır(sonuç)
+```
+
+Zasmanı ayırmak için:
+
+```python
+#Azazil zamnanı ayırma
+sonuç = zaman.zaman_ayır("%Y-%m-%d %H:%M:%S", "2024-12-03 15:30:00")
+yazdır(sonuç)
+```
+
+Yapı zamanını almak için:
+
+```python
+#Azazil Yapı zamanını almak için
+'sonuç = zaman.yapı_zamanı()
+yazdır(sonuç)
+```
+
+İş parçası zamanını alamak için:
+
+```python
+sonuç = zaman.iş_parçası_zamanı()
+yazdır(sonuç)
+```
+İş parçası zamanını (ns) almak için:
+
+```python
+#Azazil iş parçası (ns) alma
+sonuç = zaman.iş_parçası_zamanı_ns()
+yazdır(sonuç)
+```
+
+Zaman dilimini almak için:
+
+```python
+#Azazil zaman dilimini alma
+sonuç = zaman.zaman_dilimi()
+yazdır(sonuç)
+```
+
+Zaman diliimi adını almak için:
+
+```python
+#Azazil zaman dilimi adını alma
+sonuç = zaman.zaman_dilimi_adı()
+yazdır(sonuç)
+```
+
+###Tarih zaman kütüphanesi komutları
+
+Tarih zaman kütüphaneisini yüklemek için:
+
+```python
+#Azazil tarih zaman kütüphanesini yükleme
+tarih zaman kütüphanesini yükle
+```
+
+Bugünün tarihini almak için:
+
+```python
+#Azazil bugünün tarihini alma
+sonuç = tarih_zaman.bugünün tarihi()
+yazdır(sonuç)
+```
+
+Şimdiki zamanı almak için:
+
+```python
+#Azazil şimdiki zamanı alma
+sonuç = tarih_zaman.şimdiki zaman()
+yazdır(sonuç)
+```
+
+Berlirli bir zamanı oluşturmak için:
+
+```python
+#Azazil belirli bir zamanı alma
+sonuç = tarih_zaman.belirli zaman(2024, 12, 8, 14, 30)
+yazdır(sonuç)
+```
+
+ Yıl bilgisini almak için:
+ ```python
+#Azazil yıl bilgisini alma
+sonuç = tarih_zaman.yıl()
+yazdır(sonuç)
+```
+
+Ay bilgisini almak için:
+
+```python
+#Azazil ay bilgisini alma
+sonuç = tarih_zaman.ay()
+yazdır(sonuç)
+```
+
+Gün bilgisini almak için:
+
+```python
+#Azazil gün bilgisini alma
+sonuç = tarih_zaman.gün()
+yazdır(sonuç)
+```
+
+Saat bilgisi almak için:
+
+```python
+#Azazil saat bilgisi alma
+sonuç = tarih_zaman.saat()
+yazdır(sonuç)
+```
+
+Dakika biligisini almak için:
+
+```pythone
+#Azazil dakika bilgisini alma
+sonuç = tarih_zaman.dakika()
+yazdır(sonuç)
+```
+
+Saniye bilgisini almak için:
+
+```python
+#Azazil saniye bilgisini alma
+sonuç = tarih_zaman.saniye()
+yazdır(sonuç)
+```
+
+Bir tarihi oluşturmak için:
+
+```python
+#Azazil tarih oluşturma
+sonuç = tarih_zaman.tarihi_oluştur(2024, 12, 8)
+yazdır(sonuç)
+```
+
+Bir zaman oluşturmak için:
+
+```python
+#Azazil bir azman oluşturma
+sonuç = tarih_zaman.zamanı_oluştur(14, 30)
+yazdır(sonuç)
+```
+
+Belirli bir zamanı dilime dönüştürmerk için:
+
+```python
+#Azazil belirli bir zamanı dilime dönüştürme
+sonuç = tarih_zaman.zamanı_dilime_dönüştür(datetime.timezone.utc)
+yazdır(sonuç)
+```
+
+Bir zamanı diziye çevirmek için:
+
+```python
+#Azazil bir zamanı dizeye çevirme
+sonuç = tarih_zaman.dizeye_çevir("%Y-%m-%d", belirli zaman(2024, 12, 8))
+yazdır(sonuç)
+```
+
 ## Katkıda Bulunun
 
 Azazil'e katkıda bulunmak isterseniz, lütfen [GitHub]([https://github.com/azazil-dev](https://github.com/merttalha/azazil-Turkish-programming-language/tree/main?tab=readme-ov-file)) sayfamızı ziyaret edin ve geliştirme rehberimizi inceleyin.
