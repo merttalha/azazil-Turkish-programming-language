@@ -1,6 +1,8 @@
 # Azazil
 
-![Azazil Icon](https://github.com/user-attachments/assets/da75c13d-6a80-494a-8720-613570692d8f)
+
+
+![Azazil Icon](https://github.com/user-attachments/assets/9a5a5230-f28f-45ae-87b7-c4b5ae4c0f10)
 
 Azazil, hızlı bir şekilde çalışmanıza olanak sağlayan Türkçe bir programlama dilidir ve sistemlerinizi daha etkili bir şekilde entegre etmenizi sağlar.
 
