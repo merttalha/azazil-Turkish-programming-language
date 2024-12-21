@@ -20,6 +20,23 @@ Azazil, arka planda Python kullanan Türkçe bir yazılım dilidir. Temel Python
 - **.exe Desteği:** Geliştirilen yazılımlar tek tuşla çalıştırılabilir `.exe` dosyalarına dönüştürülebilir.
 - **Eğitim Dostu:** Öğrenmeyi kolaylaştırır ve yazılım dünyasına yeni başlayanlar için idealdir.
 
+  ### Yol Haritası
+
+- ✅ İşletim sistemi kütüphanesi
+- ✅ Sistem parametreleri ve koşulları kütüphanesi
+- ✅ Matematikesel işlemler kütüphanesi
+- ✅ Zaman kütüphanesi
+- ✅ Tarih ve zaman kütüphanesi
+- ✅ Rastgele İşlem kütüphanesi
+- ✅ Düzenli ifadeler kütüphanesi
+- ✅ HTTP istekleri kütüphanesi
+- ✅ JSON veri işlemleri kütüphanesi
+- 🚧 Yerel veri işlemleri kütüphanesi
+- 🚧 Günlüğe kayıt işlemleri kütüphanesi
+- 🚧 Hata izleme işlemleri kütüphanesi
+- 🚧 Çoklu iş parçacığı kütüphanesi
+- 🚧 Birden fazla platforma yazılım geliştirme seçeneği(web,android,ios,linux,windows)
+
 ## Örnek Kullanım
 
 ### Yazdırma İşlemi
@@ -907,18 +924,6 @@ Hipertanjant hesaplamak için:
 sonuç = mat.hipertanjant(0.5)
 yazdır(sonuç)
 ```
-- ✅ Tarih ve zaman kütüphanesi
-- ✅ Rastgele İşlem kütüphanesi
-- ✅ Düzenli ifadeler kütüphanesi
-- ✅ HTTP istekleri kütüphanesi
-- ✅ JSON veri işlemleri kütüphanesi
-- 🚧 Yerel veri işlemleri kütüphanesi
-- 🚧 Günlüğe kayıt işlemleri kütüphanesi
-- 🚧 Hata izleme işlemleri kütüphanesi
-- 🚧 Çoklu iş parçacığı kütüphanesi
-- 🚧 Birden fazla platforma yazılım geliştirme seçeneği(web,android,ios,linux,windows)
-
-
 ## Katkıda Bulunun
 
 Azazil'e katkıda bulunmak isterseniz, lütfen [GitHub]([https://github.com/azazil-dev](https://github.com/merttalha/azazil-Turkish-programming-language/tree/main?tab=readme-ov-file)) sayfamızı ziyaret edin ve geliştirme rehberimizi inceleyin.
