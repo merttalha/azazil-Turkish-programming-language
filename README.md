@@ -7,7 +7,7 @@ Azazil, hızlı bir şekilde çalışmanıza olanak sağlayan Türkçe bir progr
 Resmi site: [azazil.fly.dev](https://azazil.fly.dev)
 
 
-İndirme Linki: [İndir](https://drive.google.com/file/d/111i7vmX7-4ARtOCS79EJC9TJN6cy0XoI/view?usp=sharing)
+İndirme Linki: [İndir](https://drive.google.com/file/d/1wrKhrf3BjrkvxeSb1_6vCGWXW-dj7VTf/view?usp=sharing)
 
 ## Hakkında
 
