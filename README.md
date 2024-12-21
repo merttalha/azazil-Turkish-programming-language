@@ -31,7 +31,6 @@ Azazil, arka planda Python kullanan Türkçe bir yazılım dilidir. Temel Python
 - ✅ Düzenli ifadeler kütüphanesi
 - ✅ HTTP istekleri kütüphanesi
 - ✅ JSON veri işlemleri kütüphanesi
-- 🚧 Yerel veri işlemleri kütüphanesi
 - 🚧 Günlüğe kayıt işlemleri kütüphanesi
 - 🚧 Hata izleme işlemleri kütüphanesi
 - 🚧 Çoklu iş parçacığı kütüphanesi
