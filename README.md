@@ -392,7 +392,77 @@ yazdır(boyut)
 limit = özyineleme_limiti_al()
 yazdır(limit)
 ```
-- ✅ Zaman kütüphanesi
+
+Son oluşan istisnayı almak için:
+
+```python
+#Azazil son oluşan istisnayı alma
+istina = sistem_modülü.son_istisna()
+yazdır(istina)
+```
+
+İş parçacığı alanını öğrenmek için:
+
+```python
+#Azazil iş parçacığı alanını öğrenme
+aralık = sistem_modülü.iş_parçacığı_aralığı
+yazdır(aralık)
+```
+
+İş parçacığı aralığını öğrenmek için:
+
+```python
+#Azazil iş parçacığı aralığını ayarlama
+sistem_modülü.iş_parçacığı_aralığı_ayarla(0.01)
+```
+
+İstemci dosya akışı aralığını öğrenmek için:
+
+```python
+#Azazil iş dosya akışı aralığını öğrenme
+istemci_dosya_akışı = sistem_modülü.istemci_dosya_akışı
+yazdır(istemci_dosya_akışı)
+```
+
+Hata akışını öğrenmek için:
+
+ ```python
+hata_akışı = sistem_modülü.hata_akışı
+yazdır(hata_akışı)
+```
+
+Giriş akışını öğrenmek için:
+
+```python
+#Azazil giriş akışını öğrenme
+giriş_akışı = sistem_modülü.giriş_akışı
+yazdır(giriş_akışı)
+```
+
+Sonlandırma kontrolü almak için:
+
+```python
+#Azazil sonlandırma kontrolü alma
+sonlandırma_kontrolü = sistem_modülü.sonlandırma_kontrolü
+yazdır(sonlandırma_kontrolü)
+```
+
+Unicode en yüksek değeri öğrenmek için:
+
+```python
+max_unicode = sistem_modülü.unicode_en_yüksek_değer
+yazdır(max_unicode)
+```
+
+Tam sayı maksimum değeri öğrenmek için:
+
+```python
+#Azazil tam sayı maksimum değeri öğrenme
+max_size = sistem_modülü.tamsayı_maksimum_değer
+yazdır(max_size)
+```
+
+
 - ✅ Tarih ve zaman kütüphanesi
 - ✅ Rastgele İşlem kütüphanesi
 - ✅ Düzenli ifadeler kütüphanesi
