@@ -112,7 +112,7 @@ Bir sınıf tanımalamak için:
 ```python
 #Azazil sınıf tanımlama
 sınıf Araba:
-    fonksiyon içinde(self, marka):
+    fonksiyon başlangıçta(self, marka):
         self.marka = marka
 ```
 ### Veri işlemleri
@@ -665,6 +665,246 @@ Modül hesaplamak için:
 ```python
 #Azazil modül hesaplama
 sonuç = mat.modül(5, 3)
+yazdır(sonuç)
+```
+
+Serbest üstel hesaplamak için:
+
+```python
+#Azazil serbest üstel hesaplama
+sonuç = mat.serbest_üstel(5, 2)
+yazdır(sonuç)
+```
+
+Toplam hesaplamak için:
+
+```python
+#Azazil toplam hesaplama
+sonuç = mat.toplam([1, 2, 3])
+yazdır(sonuç)
+```
+
+Gamma fonksiyonunu hesaplamak için:
+
+```python
+#Azazil Gamma fonksiyomnu hesaplama
+sonuç = mat.gamma_fonksiyonu(1.5)
+yazdır(sonuç)
+```
+
+EKOK hesaplamak için:
+
+```python
+#Azazil EKOK hesaplama
+sonuç = mat.ekok(12, 18)
+yazdır(sonuç)
+```
+
+Hipotenüs hesaplamak için:
+
+```python
+#Azazil Hipotenüs hesaplama
+sonuç = mat.hipotenüs(3, 4)
+yazdır(sonuç)
+```
+
+Sonsuzluk değeri almak için:
+
+```python
+#Azazil sonsuzluk değeri alma
+sonuç = mat.sonsuzluk
+yazdır(sonuç)
+```
+
+Yakın mı hesaplamak için:
+
+```python
+#Azazil yakın mı hesaplama
+sonuç = mat.yakın_mı(0.1, 0.10001)
+yazdır(sonuç)
+```
+
+Sonlu mu kontrol etmek için:
+
+```python
+#Azazil sonlu mu kontrol etmek için:
+sonuç = mat.sonlu_mı(1)
+yazdır(sonuç)
+```
+
+Sonsuz mu kontrol etmek için:
+
+```python
+#Azazil sonsuz mu kontrol etme
+sonuç = mat.sonsuz_mı(mat.sonsuzluk)
+yazdır(sonuç)
+```
+
+Nan mı kontro letmek için:
+
+```python
+#Azazil Nan mı kontrol etmek için
+sonuç = mat.nan_mı(mat.nan)
+yazdır(sonuç)
+```
+
+Tam karekök hesaplamaka için:
+
+```python
+#Azazil tam karekök hesaplama
+mat.tam_karekök(25)
+yazdır(sonuç)
+```
+
+Çift tam sayı hesaplamak için:
+
+```python
+#Azazil çift tam sayı hesaplama
+sonuç = mat.çift_tam_sayı(5, 2)
+yazdır(sonuç)
+```
+
+Logaritma hesaplamak için:
+
+```python
+#Azazil logaritma hesaplama
+sonuç = mat.logaritma(100)
+yazdır(sonuç)
+```
+
+Logaritma 10 hesaplamak için
+
+```python
+#Azazil logaritma 10 hesaplamak için:
+sonuç = mat.log10(100)
+yazdır(sonuç)
+```
+
+Logaritma 1p hesaplamaka için:
+
+```python
+#Azazil logaritma 1p hesaplamak için
+sonuç = mat.log1p(0.5)
+yazdır(sonuç)
+```
+
+Logaritma 2 hesaplamak için:
+
+```python
+#Azazil logaritma 2 hesaplama
+sonuç = mat.log2(8)
+yazdır(sonuç)
+```
+
+Mod dönüşümü yapmak için:
+
+```python
+#Azazil mod dönüşümü yapma
+sonuç = mat.mod_dönüştür(5, 3)
+yazdır(sonuç)
+```
+
+Tanımsız hesaplamak için:
+
+```python
+#Azazil tanımsız hesaplama
+sonuç = mat.tanımısız
+yazdır(sonuç)
+```
+
+Sonraki hesaplama için:
+
+ ```python
+#Azazil sonraki hesaplama
+sonuç = mat.sonraki(0, 1)
+yazdır(sonuç)
+```
+
+Permütasyon hesaplamak için:
+
+```python
+#Azazil permütasyon hesaplama
+sonuç = mat.permütasyon(5, 3)
+yazdır(sonuç)
+```
+
+Pi sabitini kullanmak için:
+
+```python
+#Azazil Pi sabitini kullanma
+sonuç = mat.pi_sabit
+yazdır(sonuç)
+```
+
+Güç almak için:
+
+```python
+#Azazil güç alma,
+sonuç = mat.güç_al(2, 4)
+yazdır(sonuç)
+```
+
+Çarpım hesaplamak için:
+
+```python
+#Azazil çarpım hesaplama
+'sonuç = mat.çarpım([1, 2, 3])
+yazdır(sonuç)
+```
+
+Radyan hesaplamak için:
+
+```python
+#Azazil radayan hesaplama
+sonuç = mat.radyan(180)
+yazdır(sonuç)
+```
+
+Kalan bölüm hesaplama:
+
+```python
+#Azazil kalan bölüm hesaplama
+sonuç = mat.kalan_bölüm(5, 3)
+yazdır(sonuç)
+```
+
+Sinüs hesaplamak için:
+
+```python
+#Azazil sinüs hesaplama
+sonuç = mat.sinüs(0.5)
+yazdır(sonuç)
+```
+
+Hipersinüs almak için:
+
+```python
+#Azazil Hipersinüs alma
+sonuç = mat.hipersinüs(0.5)
+yazdır(sonuç)
+```
+
+Karekök hesaplamak için:
+
+```python
+#Azazil karekök hesaplama
+sonuç = mat.kare_kök(25)
+yazdır(sonuç)
+```
+
+Tanjant hesaplamak için:
+
+```python
+#Azazil tanjant hesaplama
+sonuç = mat.tanjant(0.5)
+yazdır(sonuç)
+```
+
+Hipertanjant hesaplamak için:
+
+```python
+#Azazil hipertanjant hesaplama
+sonuç = mat.hipertanjant(0.5)
 yazdır(sonuç)
 ```
 - ✅ Tarih ve zaman kütüphanesi
