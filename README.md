@@ -462,7 +462,211 @@ max_size = sistem_modülü.tamsayı_maksimum_değer
 yazdır(max_size)
 ```
 
+### Matematik kütüphanesi 
 
+Mateamtik kütüphanesini yüklemek için:
+
+```python
+#Azazil matematik kütüphanesi yükleme
+matematik_kütüphanesi_yükle = matematik kütüphanesini yükle
+```
+
+Ark kosinus hesaplamak için:
+
+```python
+sonuç = mat.arkkosinüs(0.5)
+yazdır(sonuç)
+```
+
+Ark Hiper kosinüs hesaplamak için:
+
+```python
+#Azazil Ark Hiper kosinüs hesaplama
+sonuç = mat.arkhiperkosinüs(1)
+yazdır(sonuç)
+```
+
+Ark Sinüs hesaplamak için:
+
+```python
+#Azazil Ark Sinüs hesaplama
+sonuç = mat.arksinüs(0.5)
+yazdır(sonuç)
+```
+
+Ark Hipersinüs hesaplamak için:
+
+```python
+#Azazil Ark Hipersinüs hesaplamak için
+sonuç = mat.arkhipersinüs(1)
+yazdır(sonuç)
+```
+
+Ark Tanjant hesaplamak için:
+
+```python
+#Azazil Ark Tanjant hesaplama
+sonuç = mat.arktanjant(1)
+yazdır(sonuç)
+```
+
+İki nokta arasındaki Ark Tanjant hesaplamak için:
+
+```python
+#Azazil iki nokta arasındaki Ark Tanjant hesaplama
+sonuç = mat.arktanjant2(1, 1)
+yazdır(sonuç)
+```
+
+Ark Hipertanjant hesaplamak için:
+
+```python
+#Azazil Hipertanjant hesaplama
+ mat.arkhipertanjant(0.5)
+yazdır(sonuç)
+```
+
+Küp Kök hesaplaması için:
+
+```python
+#Azazil küp kök hesaplama
+sonuç = mat.küp_kök(27)
+yazdır(sonuç)
+```
+
+Yuvarlama yukarı yapmak için:
+
+```python
+#Azazil yukarı yuvarlama yapma
+sonuç = mat.yuvarla_yukarı(2.3)
+yazdır(sonuç)
+```
+
+Kombinasyon hesaplamak için:
+
+```python
+#Azazil kombinasyon hesapalama,
+sonuç = mat.kombinasyon(5, 2)
+yazdır(sonuç)
+```
+
+İşaret kopyalamak için:
+
+```python
+#Azazil işaret kopyala
+sonuç = mat.işaret_kopyala(-5, 3)
+yazdır(sonuç)
+```
+
+Kosinüs hesaplamak için:
+
+```python
+#Azazil kosinüs hesapalama
+ mat.kosinüs(0.5)
+yazdır(sonuç)
+```
+
+Hiperkosinüs hesaplamak için:
+
+```python
+#Azazil Hiper kosinüs hesapalama
+mat.hiperkosinüs(0.5)
+yazdır(sonuç)
+```
+Dereceyi radiana çevirmekl için:
+
+```python
+#Azazil dereceyi raidana çevirme
+sonuç = mat.derece(90)
+yazdır(sonuç)
+```
+
+Uzaklık hesapalamak için:
+
+```python
+#Azazil uzaklık hesaplama
+sonuç = mat.uzaklık((0, 0), (3, 4))
+yazdır(sonuç)
+```
+
+E sabitini almak için:
+
+```python
+#Azazil E sabitini alma
+sonuç = mat.e_sabit
+yazdır(sonuç)
+```
+
+Hata fonksiyonu kullanmak için:
+
+```python
+#Azazil hta fonksiyonu alma
+sonuç = mat.hata_fonksiyonu(1)
+yazdır(sonuç)
+```
+
+Komplemanter Hata Fonksiyonu kullanmak için:
+
+```python
+sonuç = mat.komplemanter_hata_fonksiyonu(1)
+yazdır(sonuç)
+```
+
+Üs almak için:
+
+```python
+#Azazil üs alma
+sonuç = mat.üs(2, 3)
+yazdır(sonuç)
+```
+
+İkinci üs almak için:
+
+```python
+#Azazil ikinci üs almak için
+sonuç = mat.üs2(2)
+yazdır(sonuç)
+```
+
+Eksponansiyel 1 hesaplamak için:
+
+```python
+#Azazil eksponansiyel 1 hesaplama
+sonuç = mat.eksponansiyel1(1)
+yazdır(sonuç)
+```
+
+Mutlak değeri hesaplamak için:
+
+```python
+#Azazil mutlak değer alma
+sonuç = mat.mutlak_değer(-5)
+yazdır(sonuç)
+```
+
+Faktöriyel hesaplamak için:
+
+```python
+#Azazil faktöriyel hesaplama
+sonuç = mat.faktöriyel(5)
+yazdır(sonuç)
+```
+
+Yuvarlama aşağı yapmak için:
+
+```python
+#Azazil aşağı yuvarlama yapma
+sonuç = mat.yuvarla_aşağı(2.8)
+yazdır(sonuç)
+```
+
+Modül hesaplamak için:
+
+```python
+#Azazil modül hesaplama
+sonuç = mat.modül(5, 3)
+yazdır(sonuç)
+```
 - ✅ Tarih ve zaman kütüphanesi
 - ✅ Rastgele İşlem kütüphanesi
 - ✅ Düzenli ifadeler kütüphanesi
