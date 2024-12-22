@@ -1236,6 +1236,289 @@ sonuç = tarih_zaman.dizeye_çevir("%Y-%m-%d", belirli zaman(2024, 12, 8))
 yazdır(sonuç)
 ```
 
+Bir dizgeyi zamana dönüştürmek için:
+
+```pyhon
+#Azazil bir dizgeyi zaana dönüştürme
+sonuç = tarih_zaman.dizeden_zamana("%Y-%m-%d", "2024-12-08")
+yazdır(sonuç)
+```
+
+UTC zamanını almak için:
+
+```python
+#Azazil UTC zamanı alma
+sonuç = tarih_zaman.utc_zamanı()
+yazdır(sonuç)
+```
+
+### Rastgele kütüphanesi komutları
+
+Ratgele kütüphanesini yüklemek için:
+
+```python
+#Azazil rastgele ktüphanesini yükle
+rastgele kütüphanesini yükle
+```
+
+Rastgele sayı üretmek için:
+
+```python
+#Azazil
+rastgele kütüphanesini yükle
+```
+
+Bir aralıktan rastgele bir sayı seçmek için:
+
+```python
+#Azazil bir aralıktan ratgele sayı seçme
+sonuç = rastgele.sayı()
+yazdır(sonuç)
+```
+
+Bir tam sayı seçmek için:
+
+```python
+#Azazil bir tam sayı seçme
+sonuç = rastgele.aralık(1, 100)
+yazdır(sonuç)
+```
+
+Bir öğe seçmek için:
+
+```python
+#Aazil bir öğe seçme
+sonuç = rastgele.tamsayı(1, 100)
+yazdır(sonuç)
+```
+
+Birden fazla öğe seçmek için:
+
+```python
+#Azazil birden fazla öğe seçme
+sonuç = rastgele.seç([1, 2, 3, 4, 5])
+yazdır(sonuç)
+```
+
+Bir listeyi karıştırmak için:
+
+```python
+#Azazil bir listeyi karıştırma
+sonuç = rastgele.seçimler([1, 2, 3, 4, 5], k=3)
+yazdır(sonuç)
+```
+
+Üçgen dağılımı oluşturmak için:
+
+```python
+#Azazil üçgen dağılımı oluşturma
+sonuç = rastgele.üçgen(1, 10, 5)
+yazdır(sonuç)
+```
+
+Bir örnek seçmek için:
+
+```pythone
+#Azazil bir örnek seçme
+sonuç = rastgele.örnek([1, 2, 3, 4, 5], 2)
+yazdır(sonuç)
+```
+
+Logaritmik dağılım oluşturmak için:
+
+```python
+#Azazil logaritmik dağılım oluşturma
+sonuç = rastgele.logaritmik(0.5, 1.0)
+yazdır(sonuç)
+```
+
+Normal dağılım oluşturmak için:
+
+```pythone
+#Azazil normal dağılım oluşturma
+sonuç = rastgele.normal(0, 1)\nyazdır(sonuç)
+```
+
+Üstel dağılım oluşturmak için:
+
+```python
+#Azazil üstel dağılım oluşturma
+sonuç = rastgele.üstel(1.0)
+yazdır(sonuç)
+```
+
+Gauss dağılımı oluşturmak için:
+
+```python
+#Azazil gauss dağılımı oluşturma
+sonuç = rastgele.gauss(0, 1)
+yazdır(sonuç)
+```
+
+## Düzenli ifadeler kütüphanesi komutları 
+
+Düzenli ifadeler kütüphanesi yüklemek için:
+
+```python
+#Azazil düenli ifadeler kütüphanesi yükleme
+düzenli ifade kütüphanesini yükle
+```
+
+Bir düzenli ifade derlemek için:
+
+```python
+#Azazil bir düenl iifade oluşturma
+şablon = düzenli_ifadeler.derle(r"\\d{2,4}")
+```
+
+Bir düzenli ifade ile arama yapmak için:
+
+```python
+#Azazil bir düzenli ifade ile arama yapma
+sonuç = düzenli_ifadeler.ara(r"\\d{2,4}", "1234")\nyazdır(sonuç)
+```
+
+Tüm eşleşmeleri bulmak için:
+
+```python
+#Azazil tüm eşleşmeleri bulmak için:
+sonuç = düzenli_ifadeler.tüm eşleşmeler(r"\\d", "abc123xyz456")
+yazdır(sonuç)
+```
+
+Eşleşmeleri itertif olarka yamak için:
+
+```python
+#Azazil eşleşmeleri iteratif olarak yapma
+sonuç = düzenli_ifadeler.iteratif eşleşmeler(r"\\d", "abc123xyz456")
+yazdır(sonuç)
+```
+
+Tam eşleşmeyi kontrol etmek için:
+
+```python
+#Azazil tam eşleşmeleri kontrol etme
+sonuç = düzenli_ifadeler.tam eşleşme(r"abc", "abc")
+yazdır(sonuç)
+```
+
+Kaçış karakteri eklemek için:
+
+```python
+#Azazil kaçış karakteri ekleme
+sonuç = düzenli_ifadeler.kaçış(r"\\d")
+yazdır(sonuç)
+```
+
+Bir metni bölmek için:
+
+```python
+#Azazil bir metni bölme
+sonuç = düzenli_ifadeler.böl(r"\\s+", "merhaba dünya")\nyazdır(sonuç)
+```
+
+Bir alt metin değiştirmek için:
+
+```python
+#Azazil bir alt metin değiştirme
+sonuç = düzenli_ifadeler.alt(r"\\d", "#", "abc123xyz456")\nyazdır(sonuç)
+```
+
+Birden fazla alt metin değiştirmek için:
+
+```python
+#Azazil birden fazla alt metin değiştirme
+sonuç = düzenli_ifadeler.alt_sayı(r"\\d", "#", "abc123xyz456")\nyazdır(sonuç)
+```
+
+Bir metni temizlemek için:
+
+```python
+#Azazil wdbir metni temizleme
+sonuç = düzenli_ifadeler.temizle("abc123xyz456")
+yazdır(sonuç)
+```
+
+Eşleşme kontrolü yapmak için:
+
+```python
+#Azazil eşleşme kontrolü yapma
+sonuç = düzenli_ifadeler.eşleşme(r"abc", "abc123")
+yazdır(sonuç)
+```
+
+## JSON kütüphanesi komutları
+
+Json kütüphanesini yüklemek için:
+
+```python
+#Azazil json kütüphanesi yükleme
+json_kütüphanesini_yükle
+```
+
+Bir json dosyasını okumak için:
+
+```python
+#Azazil bir json dosyaysını okuma
+veri = json.oku(dosya)
+```
+
+Bir nesneyi json formatında dosyaya yazmak için:
+
+```python
+#Azazil bir nesneyi json fomratında yazama
+json.yaz(nesne, dosya)
+```
+
+Bir nesneyi JSON formatında metin olarak yazmak için:
+
+```python
+#Azazil bir nesneyi json fomratında metin olarak yazma
+json_dize = json.metine_yaz(nesne)
+```
+
+JSON formatındaki bir metni okumak için:
+
+```python
+#Azazil json formatındaki bir metni okumak için:
+veri = json.metinden_oku(json_dize)
+```
+
+Bir JSON kod çözücü kullanmak için:
+
+```python
+#Azazil bir json çözücü kullanma
+çözücü = json_işlemleri.kod_çözücü()
+```
+
+Bir JSON kodlayıcı kullanmak için:
+
+```python
+#Azazil json kodlayıcı kullanma
+kodlayıcı = json.kodlayıcı()
+```
+
+Bir JSON kodlama hatasını yakalamak için:
+
+```python
+#Azazil json kodlama hatası yakalamak için:
+hata = json.kodlama_hatası
+```
+
+JSON kodlama algoritmasını algılamak için:
+
+```python
+#Azazil json kodlama algoritmasını algılama
+algıla = json.kodlama_algıla(dosya)
+```
+
+Bir JSON tarayıcı kullanmak için:
+
+```python
+#Aazil bir json tarayıcı kullanma
+tarayıcı = json.tarayıcı()
+```
+
 ## Katkıda Bulunun
 
 Azazil'e katkıda bulunmak isterseniz, lütfen [GitHub]([https://github.com/azazil-dev](https://github.com/merttalha/azazil-Turkish-programming-language/tree/main?tab=readme-ov-file)) sayfamızı ziyaret edin ve geliştirme rehberimizi inceleyin.
