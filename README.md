@@ -1515,7 +1515,7 @@ algıla = json.kodlama_algıla(dosya)
 Bir JSON tarayıcı kullanmak için:
 
 ```python
-#Aazil bir json tarayıcı kullanma
+#Azazil bir json tarayıcı kullanma
 tarayıcı = json.tarayıcı()
 ```
 
