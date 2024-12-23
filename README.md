@@ -363,7 +363,7 @@ sürüm = sistem_modülü.sürüm_bilgisi
 yazdır(sürüm)
 ```
 
-Platform bilgisi almak için:
+Platm bilgisi almak için:
 
 ```python
 #Azazil platform bilgisi
@@ -1785,7 +1785,7 @@ Bir yığında dolaşmak için:
 
 ```python
 #Azazil bir yığında dolasma
-for çerçeve, yol in hata_izleme.yığın_yürü():
+sıralı döngü komutu çerçeve, yol in hata_izleme.yığın_yürü():
     yazdır(çerçeve, yol)
 ```
 
@@ -1793,7 +1793,7 @@ Bir izleme yığınında dolaşmak için:
 
 ```python
 #Azazil bir izleme yığınında dolaşma
-for çerçeve, yol in hata_izleme.izleme_yığınında_yürü(istisna.tb):
+sıralı döngü komutu çerçeve, yol in hata_izleme.izleme_yığınında_yürü(istisna.tb):
     yazdır(çerçeve, yol)
 ```
 
@@ -1802,7 +1802,7 @@ Hataları baskılamak için:
 
 ```python
 #Azazil hataları baskılama
-with hata_izleme.baskıla():
+ile hata_izleme.baskıla():
     potansiyel_hatalı_fonksiyon()
 ```
 
