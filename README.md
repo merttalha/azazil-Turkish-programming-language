@@ -4,7 +4,7 @@
 
 ![Azazil Icon](https://github.com/user-attachments/assets/9a5a5230-f28f-45ae-87b7-c4b5ae4c0f10)
 
-Azazil, hızlı bir şekilde çalışmanıza olanak sağlayan Türkçe bir programlama dilidir ve sistemlerinizi daha etkili bir şekilde entegre etmenizi sağlar.
+Azazil, hızlı bir şekilde çalışmanıza olanak sağlayan Türkçe Programlama Dili Editörüdür ve sistemlerinizi daha etkili bir şekilde entegre etmenizi sağlar.
 
 
 
@@ -18,7 +18,7 @@ Kurulum videosu: [İzle](https://youtu.be/eNTVDYABZgM?si=B2X6r9SUkO_C4X1j)
 
 ## Hakkında
 
-Azazil, arka planda Python kullanan Türkçe bir yazılım dilidir. Temel Python özellikleri Türkçe bir yapıda sunarak, yazılım geliştiricilere ana dillerinde kod yazmayı sağlar. Azazil, hızlı çıkış alma seçeneği ile öne çıkar. Geliştirilen yazılımlar kolayca çalıştırılabilir ve tek bir tuşla `.exe` dosyası alınabilir. Bu sayede hem öğrenme süreci hızlanır hem de pratik bir geliştirme deneyimi sunar. Karmaşık yapıları basitleştiren ve Türkçe bir alternatif sunan Azazil, yazılım dünyasında özgün bir yere sahiptir.
+Azazil, arka planda Python kullanan Türkçe Programlama Dili Editörüdür. Temel Python özellikleri Türkçe bir yapıda sunarak, yazılım geliştiricilere ana dillerinde kod yazmayı sağlar. Azazil, hızlı çıkış alma seçeneği ile öne çıkar. Geliştirilen yazılımlar kolayca çalıştırılabilir ve tek bir tuşla `.exe` dosyası alınabilir. Bu sayede hem öğrenme süreci hızlanır hem de pratik bir geliştirme deneyimi sunar. Karmaşık yapıları basitleştiren ve Türkçe bir alternatif sunan Azazil, yazılım dünyasında özgün bir yere sahiptir.
 
 ## Özellikler
 
