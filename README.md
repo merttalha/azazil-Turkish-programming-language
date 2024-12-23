@@ -1540,7 +1540,7 @@ yazdır(seviyeler)
 seviyeler = kayıt.hata
 yazdır(seviyeler)
 
-#debug seviyesi
+#hata ayıklama seviyesi
 seviyeler = kayıt.hata_ayıklama
 yazdır(seviyeler)
 
@@ -1552,7 +1552,7 @@ yazdır(seviyeler)
 seviyeler = kayıt.uyarı
 yazdır(seviyeler)
 
-hiçbiri seviyesi
+#hiçbiri seviyesi
 seviyeler = kayıt.hiçbiri
 yazdır(seviyeler)
 ```
@@ -1611,7 +1611,7 @@ Kaydetme işlemleri için:
 ```python
 #Azazil kaydetme işlemleri
 #bilgi kaydı
-kayıt.kayıt_et(kayıt.bilgi, "Bilgi logu mesajı")
+kayıt.kayıt_et(kayıt.bilgi, "Bilgi kaydı mesajı")
 
 #hata kaydı
 kayıt.hata_kayıt("Bu bir hata mesajıdır.")
@@ -1620,7 +1620,7 @@ kayıt.hata_kayıt("Bu bir hata mesajıdır.")
 kayıt.uyarı_kayıt("Bu bir uyarı mesajıdır.")
 
 #hata ayıklama kaydı
-kayıt.debug_kayıt("Debug mesajı")
+kayıt.debug_kayıt("hata ayıklama mesajı")
 
 #kritik kaydı
 kayıt.kritik_kayıt("Kritik hata mesajı")
@@ -1635,7 +1635,7 @@ formatlayıcı = kayıt.formatlayıcı("%(asctime)s - %(isim)s - %(seviye)s: %(m
 
 #akış tutucu
 akış_tutucu = kayıt.akış_tutucu()
-logger = kayıt.kayıt_al("akış_logger")
+kaydedici = kayıt.kayıt_al("akış_logger")
 logger.addHandler(akış_tutucu)
 
 #dosya tutucu
@@ -1645,7 +1645,7 @@ logger.addHandler(dosya_tutucu)
 
 #boş tutucu
 boş_tutucu = kayıt.boş_tutucu()
-logger = kayıt.kayıt_al("boş_logger")
+kaydedici = kayıt.kayıt_al("boş_logger")
 logger.addHandler(boş_tutucu)
 ```
 
