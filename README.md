@@ -11,6 +11,12 @@ Resmi site: [azazil.fly.dev](https://azazil.fly.dev)
 
 İndirme Linki: [İndir](https://firebasestorage.googleapis.com/v0/b/aile-dad9d.appspot.com/o/Azazil%20V1-0.2.zip?alt=media&token=cff6c274-1632-4719-9aa8-25d26e25615f)
 
+
+
+Kurulum videosu: [İndir](https://youtu.be/eNTVDYABZgM?si=B2X6r9SUkO_C4X1j)
+
+
+
 ## Hakkında
 
 Azazil, arka planda Python kullanan Türkçe bir yazılım dilidir. Temel Python özellikleri Türkçe bir yapıda sunarak, yazılım geliştiricilere ana dillerinde kod yazmayı sağlar. Azazil, hızlı çıkış alma seçeneği ile öne çıkar. Geliştirilen yazılımlar kolayca çalıştırılabilir ve tek bir tuşla `.exe` dosyası alınabilir. Bu sayede hem öğrenme süreci hızlanır hem de pratik bir geliştirme deneyimi sunar. Karmaşık yapıları basitleştiren ve Türkçe bir alternatif sunan Azazil, yazılım dünyasında özgün bir yere sahiptir.
