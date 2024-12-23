@@ -6,14 +6,13 @@
 
 Azazil, hızlı bir şekilde çalışmanıza olanak sağlayan Türkçe bir programlama dilidir ve sistemlerinizi daha etkili bir şekilde entegre etmenizi sağlar.
 
-Resmi site: [azazil.fly.dev](https://azazil.fly.dev)
 
 
 İndirme Linki: [İndir](https://firebasestorage.googleapis.com/v0/b/aile-dad9d.appspot.com/o/Azazil%20V1-0.2.zip?alt=media&token=cff6c274-1632-4719-9aa8-25d26e25615f)
 
 
 
-Kurulum videosu: [İndir](https://youtu.be/eNTVDYABZgM?si=B2X6r9SUkO_C4X1j)
+Kurulum videosu: [İzle](https://youtu.be/eNTVDYABZgM?si=B2X6r9SUkO_C4X1j)
 
 
 
