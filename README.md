@@ -1519,6 +1519,428 @@ Bir JSON tarayıcı kullanmak için:
 tarayıcı = json.tarayıcı()
 ```
 
+## Kayıt kütüphanesi komutları
+
+Kayıt kütüphanesini yüklemek için:
+
+```python
+#Azazil kayıt kütüphanesini yükleme
+kayıt_kütüphanesini_yükle
+```
+
+Kaydetme seviyelerini kullanmak için:
+
+```python
+#Azazil kaydetme seviyelerini kullanma
+#kritik seviyesi
+seviyeler = kayıt.kritik
+yazdır(seviyeler)
+
+#hata seviyesi
+seviyeler = kayıt.hata
+yazdır(seviyeler)
+
+#debug seviyesi
+seviyeler = kayıt.hata_ayıklama
+yazdır(seviyeler)
+
+#bilgi seviyesi
+seviyeler = kayıt.bilgi
+yazdır(seviyeler)
+
+#uyarı seviyesi
+seviyeler = kayıt.uyarı
+yazdır(seviyeler)
+
+hiçbiri seviyesi
+seviyeler = kayıt.hiçbiri
+yazdır(seviyeler)
+```
+
+Temel yapılanmdırma ayarlarını yapmak için:
+
+```python
+#Azazil temel yapılandırma ayarlarını yapma
+kayıt.temel_ayarla(seviye=kayıt.bilgi)
+```
+
+Kaydedici oluşturmak için:
+
+```python
+#Azazil kaydedici oluşturma
+logger = kayıt.kayıt_al("örnek_logger")
+logger.info("Bu bir bilgi mesajıdır.")
+```
+
+Kaydedici sınıfını almak ve ayarlamak için:
+
+```python
+#Azazil kaydedici sınıfını almak ve ayarlama
+sınıf = kayıt.kayıt_sınıfı_al()
+yazdır(sınıf)
+
+kayıt.kayıt_sınıfı_ayarla(YeniLoggerSınıfı)
+```
+
+Özel kayıt seviyesi ayarlamak için:
+
+```python
+#Azazil özel kayıt seviyesi ayarlama
+#kaydedici sınıfı al
+kayıt.seviyeyi_adlandır(25, "ÖZEL_SEVİYE")
+#kaydedici sınıfı ayarla
+yazdır(kayıt.seviyeyi_al(25))
+```
+
+Uyarı ve hata işlemleri için:
+
+```python
+#Azazil uyarı ve hata işlemleri
+#uyarıları yakala
+kayıt.kayıt_yakala(True)
+
+#Hata Baskıla
+kayıt.hata_baskıla(kayıt.hiçbiri)
+
+#uyarıları kapat
+kayıt.uyarıları_kapat()
+```
+
+Kaydetme işlemleri için:
+
+```python
+#Azazil kaydetme işlemleri
+#bilgi kaydı
+kayıt.kayıt_et(kayıt.bilgi, "Bilgi logu mesajı")
+
+#hata kaydı
+kayıt.hata_kayıt("Bu bir hata mesajıdır.")
+
+#uyarı kaydı
+kayıt.uyarı_kayıt("Bu bir uyarı mesajıdır.")
+
+#hata ayıklama kaydı
+kayıt.debug_kayıt("Debug mesajı")
+
+#kritik kaydı
+kayıt.kritik_kayıt("Kritik hata mesajı")
+```
+
+Formatlayıcılar ve tutucular için:
+
+```python
+#Azazil formatlayıcı ve tutucular
+#formatlayıcı
+formatlayıcı = kayıt.formatlayıcı("%(asctime)s - %(isim)s - %(seviye)s: %(mesaj)s")
+
+#akış tutucu
+akış_tutucu = kayıt.akış_tutucu()
+logger = kayıt.kayıt_al("akış_logger")
+logger.addHandler(akış_tutucu)
+
+#dosya tutucu
+dosya_tutucu = kayıt.dosya_tutucu("log_dosyası.log")
+logger = kayıt.kayıt_al("dosya_logger")
+logger.addHandler(dosya_tutucu)
+
+#boş tutucu
+boş_tutucu = kayıt.boş_tutucu()
+logger = kayıt.kayıt_al("boş_logger")
+logger.addHandler(boş_tutucu)
+```
+
+Diğer kaydetme işlemler için:
+
+```python
+#Azazil diğer kaydetme işlemleri
+#kayıt süreçleri
+yazdır(kayıt.kayıt_süreçleri)
+
+#kayıt işlemleri
+yazdır(kayıt.kayıt_işlemleri)
+
+#kayıt oluşturucu ayarla
+kayıt.kayıt_oluşturucu_ayarla(yeni_oluşturucu)
+
+#kayıt oluşturucu al
+yazdır(kayıt.kayıt_oluşturucu_al())
+```
+
+## Hata izleme kütüphanesi komutları
+
+Hata izleme komutları kütüphanesini yüklemek için:
+
+```python
+#Azazil hata izleme kütüphanesi yükleme
+hata_izleme_kütüphanesini_yükle
+```
+
+Bir çerçeve özeti oluşturmak için:
+
+```python
+#Azazil bir çerçeve özeti oluşturma
+çerçeve = hata_izleme.çerçeve_özeti(dosya_adı, satır_no, işlev_adı)
+```
+
+Bir yığın özeti oluşturmak için:
+
+```python
+#Azazil bir yığın özeti oluşturma
+yığın = hata_izleme.yığın_özeti()
+```
+
+Bir geri izleme istisnası oluşturmak için:
+
+```python
+#Azazil Bir geri izleme istisnası oluşturma
+istisna = hata_izleme.hata_izleme_istisnası(*sys.exc_info())
+yazdır(istisna)
+```
+
+Çerçeveleri temizlemek için:
+
+```python
+#Azazil çerçeveleri temizleme
+hata_izleme.çerçeveleri_temizle(istisna)
+```
+
+Bir yığın çıkarımı yapmak için:
+
+```python
+#Azazil bir yığın çıkarımı yapma
+yığın = hata_izleme.yığını_çıkar()
+yazdır(yığın)
+```
+
+Bir izleme yığını çıkarmak için:
+
+```python
+#Azazil bir izleme yığını çıkarma
+izleme_yığını = hata_izleme.izleme_yığınını_çıkar(istisna.tb)
+```
+
+Bir hatayı biçimlendirmek için:
+
+```python
+#Azazil bir hatayı biçimlendirme
+hata_metin = hata_izleme.format_hata()
+yazdır(hata_metin)
+```
+
+Bir istisnayı biçimlendirmek için:
+
+```python
+#Azazil bir istisnayı biçimlendirme
+istisna_metin = hata_izleme.format_istisna(*sys.exc_info())
+yazdır(istisna_metin)
+```
+
+Yalnızca istisna bilgisini biçimlendirmek için:
+
+```python
+#Azazil yalnızca istisna bilgisini biçimlendirme
+sadece_istisna = hata_izleme.yalnızca_istisna_formatla(*sys.exc_info())
+yazdır(sadece_istisna)
+```
+
+Bir listeyi biçimlendirmek için:
+
+```python
+#Azazil bir listeyi biçimlendirme
+liste = hata_izleme.liste_formatla(yığın)
+yazdır(liste)
+```
+
+Bir yığını biçimlendirmek için:
+
+```python
+#Azazil bir yığını biçimlendirme
+formatlanmış_yığın = hata_izleme.yığın_formatla()
+yazdır(formatlanmış_yığın)
+```
+
+Bir izleme yığınını biçimlendirmek için:
+
+```python
+#Azazil bir izleme yığınını biçimlendirme
+formatlanmış_izleme = hata_izleme.izleme_yığınını_formatla(istisna.tb)
+yazdır(formatlanmış_izleme)
+```
+
+Bir istisnayı yazdırmak için:
+
+```python
+#Azazil bir istisnayı yazdırma
+hata_izleme.istisna_yazdır()
+```
+
+Son istisnayı yazdırmak için:
+
+```python
+#Azazil son istisnayı yazdırmak için:
+hata_izleme.son_istisnayı_yazdır()
+```
+
+Bir yığında dolaşmak için:
+
+```python
+#Azazil bir yığında dolasma
+for çerçeve, yol in hata_izleme.yığın_yürü():
+    yazdır(çerçeve, yol)
+```
+
+Bir izleme yığınında dolaşmak için:
+
+```python
+#Azazil bir izleme yığınında dolaşma
+for çerçeve, yol in hata_izleme.izleme_yığınında_yürü(istisna.tb):
+    yazdır(çerçeve, yol)
+```
+
+Hataları baskılamak için:
+
+
+```python
+#Azazil hataları baskılama
+with hata_izleme.baskıla():
+    potansiyel_hatalı_fonksiyon()
+```
+
+## İş parçacığı kütüphanesi komutları
+
+
+İş parçacığı kütüphanesini yüklemek için:
+
+```python
+#Azazil iş parçacığı kütüphanesini yükleme
+iş_parçacığı_kütüphanesini_yükle
+```
+
+Bir engel (barrier) oluşturmak için:
+
+
+```python
+#Azazil bir engel (barrier) oluşturma
+engel = iş_parçacığı.engel(katılımcı_sayısı)
+```
+
+Sınırlı semafor oluşturmak için:
+
+```python
+#Azazil sınırlı semafor oluşturma
+sınırlı_semafor = iş_parçacığı.sınırlı_semafor(değer)
+```
+
+Bir bozulan engel hatası örneği oluşturmak için:
+
+```python
+#Azazil bir bozulan engel hatası örneği oluşturma
+hata_yakala:
+    engel.bekle()
+hata_ver iş_parçacığı.bozuk_engel_hatası:
+    yazdır("Engel bozuldu!")
+```
+
+Bir koşul nesnesi oluşturmak için:
+
+
+```python
+#Azazil bir koşul nesnesi oluşturma
+koşul = iş_parçacığı.koşul()
+```
+
+Bir olay nesnesi oluşturmak için:
+
+```python
+#Azazil bir olay nesnesi oluşturma
+olay = iş_parçacığı.olay()
+```
+
+Bir kilit nesnesi oluşturmak için:
+
+```python
+#Azazil bir kilit nesnesi oluşturma
+kilit = iş_parçacığı.kilit()
+```
+
+Bir yeniden giriş kilidi oluşturmak için:
+
+```python
+#Azazil bir yeniden giriş kilidi oluşturma
+r_kilit = iş_parçacığı.yeniden_giriş_kilidi()
+```
+
+Bir semafor nesnesi oluşturmak için:
+
+```python
+#Azazil bir semafor nesnesi oluşturma
+semafor = iş_parçacığı.semafor(değer)
+```
+
+Maksimum zaman aşımı değerini öğrenmek için:
+
+```python
+#Azazil maksimum zaman aşımı değerini öğrenme
+yazdır(zaman_aşımı_maks)
+```
+
+Bir iş parçacığı oluşturmak için:
+
+```python
+#Azazil bir iş parçacığı oluşturma
+iş = iş_parçacığı.iş_parçacığı(hedef=fonksiyon, args=(argümanlar,))
+iş.başlat()
+```
+
+Aktif iş parçacıklarının sayısını almak için:
+
+```python
+#Azazil aktif iş parçacıklarının sayısını alma
+yazdır(iş_parçacığı.aktif_sayı())
+```
+
+Geçerli iş parçacığını almak için:
+
+```python
+#Azazil geçerli iş parçacığını alma
+geçerli = iş_parçacığı.geçerli_iş_parçacığı()
+```
+
+İş parçacıklarını sıralamak için:
+
+```python
+#Azazil iş parçacıklarını sırala
+yazdır(iş_parçacığı.sıralama())
+```
+
+Bir iş parçacığı kimliğini almak için:
+
+```python
+#Azazil bir iş parçacığı kimliğini alma
+yazdır(iş_parçacığı.kimlik_al())
+```
+
+Bir profil ayarlamak için:
+
+```python
+#Azazil bir profil ayarlama
+iş_parçacığı.profil_ayarla(profil_fonksiyonu)
+```
+
+Bir izleme ayarlamak için:
+
+```python
+#Azazil bir izleme ayarlama
+iş_parçacığı.izleme_ayarla(izleme_fonksiyonu)
+```
+
+Bir iş parçacığı yığın boyutunu ayarlamak için:
+
+```python
+#Azazil "bir iş parçacığı yığın boyutunu ayarlama
+iş_parçacığı.yığın_boyutu(boyut)
+```
+
 ## Katkıda Bulunun
 
 Azazil'e katkıda bulunmak isterseniz, lütfen [GitHub]([https://github.com/azazil-dev](https://github.com/merttalha/azazil-Turkish-programming-language/tree/main?tab=readme-ov-file)) sayfamızı ziyaret edin ve geliştirme rehberimizi inceleyin.
