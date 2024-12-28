@@ -8,7 +8,7 @@ Azazil, hızlı bir şekilde çalışmanıza olanak sağlayan Türkçe Programla
 
 
 
-İndirme Linki: [İndir](https://firebasestorage.googleapis.com/v0/b/aile-dad9d.appspot.com/o/Azazil%20V1-0.2.zip?alt=media&token=cff6c274-1632-4719-9aa8-25d26e25615f)
+İndirme Linki: [İndir](https://firebasestorage.googleapis.com/v0/b/aile-dad9d.appspot.com/o/Azazil%20V1-0.3.zip?alt=media&token=90a66472-9346-4aaa-8e47-586faa26b888)
 
 
 
