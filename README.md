@@ -53,6 +53,38 @@ Bir mesaj veya değişkeni ekrana yazdırmak için:
 # Azazil'de ekran çıktısı
 yazdır("Merhaba Dünya")
 ```
+### Veri tipleri
+
+Veri tipleri Python'da olduğu gibi kullanılmaz bir kaç farklılık vardır,
+
+```python
+# Azazil veri tipi dönüşümleri
+
+# Sayıyı metne dönüştürme
+yazı = metin(15)  # "15" olarak döner
+yazdır(yazı)
+
+# Birden fazla veri tipini metne dönüştürme
+birdenfazla=birleştir(42, " yaşındayım, boyum ", 1.76, " metre.")
+yazdır(birdenfazla)
+
+# Metni sayıya dönüştürme
+sayı = tam_sayı("42")  # 42 olarak döner
+yazdır(sayı)
+
+# Ondalıklı bir metni sayıya dönüştürme
+ondalik_sayi = ondalık("3.14")  # 3.14 olarak döner
+yazdır(ondalik_sayi)
+
+# Mantıksal ifadeyi metne dönüştürme
+mantik_metin = metin(Doğru)  # "Doğru" olarak döner
+yazdır(mantik_metin)
+
+# Sayıyı mantıksal değere dönüştürme
+mantik = mantıksal(1)  # Doğru olarak döner (0 = Yanlış, diğer tüm sayılar = Doğru)
+yazdır(mantik)
+
+```
 
 ### Değişken Tanımlama
 
