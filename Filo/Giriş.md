@@ -7,19 +7,19 @@ Flet uygulama Örnek bir "Sayaç" uygulaması oluşturun:
 karşı.py
 
 ```python
-import flet as ft
+Filo kütühanesini yükle
 
-def main(page: ft.Page):
-    page.title = "Flet counter example"
-    page.vertical_alignment = ft.MainAxisAlignment.CENTER
+fonksiyon main(sayfa: Filo.):
+    sayfa.title = "Flet counter example"
+    sayfa.Dikey_Hizalama =filo.Ana_Eksen_Hizalaması.MERKEZ
 
-    txt_number = filo.Metin_Alanı(value="0", text_align=ft.TextAlign.RIGHT, width=100)
+    txt_number = filo.Metin_Alanı(Değer="0", Metin_Hizalama=filo.Metin_Hizalama.RİGHT, Genişlik=100)
 
-    def minus_click(e):
-        txt_number.value = str(int(txt_number.value) - 1)
-        page.update()
+    fonksiyon eksi_tıklama(e):
+        metin_Sayı.değer = metin(tam_sayı(metin_sayı.değer) - 1)
+        sayfa.güncelleme()
 
-    def plus_click(e):
+    fonksiyon artı_tıklama(e):
         txt_number.value = str(int(txt_number.value) + 1)
         page.update()
 
